@@ -32,8 +32,8 @@ main (void)
 
   bytes =
     sprintf (buffer,
-	     "ARGGHHH I've been executed! my pid is :%d Parent id %d %s\n",
-	     pid, ppid, buf);
+	     "ARGGHHH I've been executed! my pid is :%d Parent id %d\n",
+	     pid, ppid);
 
 
   bytes = write (fin, buffer, strlen (buffer));
